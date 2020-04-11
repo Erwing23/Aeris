@@ -2055,7 +2055,7 @@ aside ul li {
 	padding: 8px 0;
 	font-family: 'Lato', sans-serif;
 	letter-spacing: 0.8px;
-	color: #969dad;
+	color: #000000;
 	font-size: 14px;
 	text-transform: none;
 	font-weight: 500;
@@ -2086,7 +2086,7 @@ aside li a:hover {
 	text-transform: none;
 	font-weight: 400;
 	border: none;
-	border-bottom: 0px #e2ddc7 solid;
+	border-bottom: 0px #000000 solid;
 	margin-bottom: 0px;
 	list-style: none;
 }
@@ -2104,7 +2104,7 @@ aside li a:hover {
 	font-family: 'FontAwesome';
 	content: "\f105";
 	display: inline-block;
-	color: #c4c6c9;
+	color: #000000;
 	font-weight: bold;
 	position: relative;
 	margin-right: 30px;
@@ -2630,10 +2630,11 @@ embed, iframe, object {
 #home-banner .content {
 	margin-top: 0vw;
 	position: relative;
+	
 }
 #home-banner .content-row:before {
 	content: "";
-	border: 20px #e0ecf6 solid;
+	
 	display: inline-block;
 	position: absolute;
 	width: 26%;
@@ -2641,18 +2642,23 @@ embed, iframe, object {
 	z-index: -1;
 	margin-top: -17%;
 	margin-left: -50px;
+	
 }
 #home-banner .row-with-content h1 {
 	font-weight: 900;
+	color: #ff0011;
 	font-size: 42px;
 	display: block;
 	max-width: 500px;
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
 	margin-bottom: 10px;
+	
 }
 #home-banner .row-with-content a {
 	font-size: 16px;
+	font-weight: 900;
+	color: #ff0011;
 	font-family: 'Lato', sans-serif;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -2752,7 +2758,8 @@ ol.type li:last-child:after {
 	content: '';
 }
 ol.type li a {
-	color: #80909c;
+	background-color: rgb(0, 0, 0);
+	color: #ffffff;
 	font-size: 14px;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
@@ -2762,11 +2769,15 @@ ol.type li a {
 	border-radius: 4px;
 }
 ol.type li a:hover {
-	border: 2px #dce5ec solid;
+	background-color: rgb(76, 0, 255);
+	color: #ffffff;
+	border: 2px #0091ff solid;
 	transition: all 0.5s;
 	text-decoration: none;
 }
 ol.type li a.active {
+	background-color: rgb(76, 0, 255);
+	color: #ffffff;
 	border: 2px #dce5ec solid;
 	text-decoration: none;
 }
@@ -3109,8 +3120,10 @@ ol.type li a.active {
 	float: left;
 }
 .portfolio-content .col-md-6 {
+	
 	padding-left: 0;
 	padding-right: 30px;
+	
 }
 .portfolio-content img {
 	margin-bottom: 50px;
