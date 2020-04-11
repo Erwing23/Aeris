@@ -2666,7 +2666,7 @@ embed, iframe, object {
 	text-decoration: underline;
 }
 #home-banner .row-with-content span {
-	color: #80909c;
+	color: #ff0011;
 	font-weight: 400;
 	font-size: 16px;
 	display: block;
@@ -2680,8 +2680,9 @@ embed, iframe, object {
 .row-with-content {
 	position: relative;
 	min-height: 580px;
-	background: #fff;
+	background: rgb(255, 255, 255);
 	z-index: 9;
+
 }
 .no-padding {
 	padding-left: 0;
