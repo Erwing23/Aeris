@@ -362,7 +362,8 @@ p a:hover {
 	padding-left: 50px;
 	padding-right: 50px;
 	text-align: center;
-}
+} 
+
 #navbar {
 	z-index: 10;
 	overflow: hidden;
