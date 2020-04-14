@@ -399,8 +399,9 @@ border-radius: 0px;
   .sticky + .content {
 	padding-top: 60px;
   }
+
 .header-col-2 p.head-content {
-	color: #ffffff;
+	color: #f8f8f8;
 	font-family: muli;
 	font-style: normal;
 	font-weight: bolder;
