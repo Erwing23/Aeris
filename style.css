@@ -344,18 +344,21 @@ p a:hover {
 /*header*/
 
 #top-header, #top-header-centre {
+	margin-top: 75px;
 	height: 100vh;
 	position: relative;
 	z-index: 1;
 	padding-top: 50px;
 	padding-bottom: 80px;
-	background: #F5F5F5;
+	background: linear-gradient(180deg, rgba(3, 102, 218, 0.85) 24.92%, rgba(3, 102, 218, 0.77) 66.71%, #4FD5FF 100%);
+border-radius: 0px;
 }
 .header-col-1 a {
 	display: inline-block;
 }
 .header-col-1 a img {
-	
+	width: 70px;
+	height: 43.5px;
 	overflow: hidden;
 }
 .header-col-2 {
@@ -372,14 +375,14 @@ p a:hover {
   
   /* Navbar links */
   #navbar a {
-	float: left;
+	float: right;
 	display: block;
 	color: #f2f2f2;
 	text-align: center;
 	padding: 14px;
 	text-decoration: none;
   }
-  
+ 
   /* Page content */
   .content {
 	padding: 16px;
@@ -397,7 +400,7 @@ p a:hover {
 	padding-top: 60px;
   }
 .header-col-2 p.head-content {
-	color: #000000;
+	color: #ffffff;
 	font-family: muli;
 	font-style: normal;
 	font-weight: bolder;
