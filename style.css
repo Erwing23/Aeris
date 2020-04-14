@@ -56,6 +56,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
 --------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600|Montserrat:100,200,300,300i,400,500,600,700,800,900|Lato:100,300,400,400i,700,900');
+@font-face {
+	src: url(fonts/Muli.ttf);
+	font-family: Muli;
+}
 /*
 fonts used
 
@@ -78,11 +82,14 @@ font-family: 'Lato', sans-serif;
 
 /* 2.1 Typography */
 
-
+html{
+	scroll-behavior: smooth;
+}
 html, body {
+	
 	font-family: 'Montserrat', sans-serif;
-	color: #80909c;
-	background: #e3e4e3;
+	color: #000000;
+	background: #f5f5f5;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Lato', sans-serif;
@@ -272,7 +279,7 @@ p a:hover {
 }
 .openmenu-nav {
 	font-size: 25px;
-	color: #ffffff;
+	color: #000000;
 	cursor: pointer;
 }
 .company-name {
@@ -337,18 +344,18 @@ p a:hover {
 /*header*/
 
 #top-header, #top-header-centre {
+	height: 100vh;
 	position: relative;
 	z-index: 1;
 	padding-top: 50px;
 	padding-bottom: 80px;
-	background: rgb(0, 0, 0);
+	background: #F5F5F5;
 }
 .header-col-1 a {
 	display: inline-block;
 }
 .header-col-1 a img {
-	width: 45px;
-	height: 45px;
+	
 	overflow: hidden;
 }
 .header-col-2 {
@@ -356,12 +363,48 @@ p a:hover {
 	padding-right: 50px;
 	text-align: center;
 }
-.header-col-2 p.head-content {
-	color: #ffffff;
-	font-weight: 400;
-	font-size: 24px;
-	font-family: 'Lato', sans-serif;
+#navbar {
+	z-index: 10;
+	overflow: hidden;
+	background-color: #333;
+  }
+  
+  /* Navbar links */
+  #navbar a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
 	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+  }
+  
+  /* Page content */
+  .content {
+	padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+	padding-top: 60px;
+  }
+.header-col-2 p.head-content {
+	color: #000000;
+	font-family: muli;
+	font-style: normal;
+	font-weight: bolder;
+	font-size: 64px;
+	line-height: 64px;
+/* or 101% */
+	letter-spacing: -1.5px;
+	text-align: left;
 	padding-bottom: 30px;
 }
 .header-col-2 .company-name {
@@ -376,12 +419,15 @@ p a:hover {
 	font-size: 60px;
 }
 .header-col-2 .header-tagline {
-	color: #ffffff;
+	color: #000000;
 	font-weight: 600;
 	text-transform: uppercase;
 	font-size: 12px;
 	display: block;
 	letter-spacing: 2px;
+}
+.company-logo{
+	border: #0091ff 10px;
 }
 #top-header .header-col-2 .company-logo {
 	display: none;
@@ -2594,6 +2640,8 @@ embed, iframe, object {
 
 
 #home-banner {
+	background-color: white;
+	height: 100vh;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -2678,6 +2726,7 @@ embed, iframe, object {
 	margin-left: auto;
 }
 .row-with-content {
+	width: 100vh;
 	position: relative;
 	min-height: 580px;
 	background: rgb(255, 255, 255);
@@ -2816,11 +2865,13 @@ ol.type li a.active {
 	transition-property: transform, opacity;
 }
 .portfolio-item .hover-bg {
+	
 	height: 380px;
 	overflow: hidden;
 	position: relative;
 }
 #pic-block .photo .portfolio-link {
+	
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -2829,6 +2880,7 @@ ol.type li a.active {
 	height: 0;
 	border-top: 0px solid rgba(98, 159, 209, 0);
 	border-right: 0px solid transparent;
+	
 }
 #pic-block .photo:hover .portfolio-link {
 	border-top: 50px solid rgba(98, 159, 209, 1);
@@ -2836,6 +2888,7 @@ ol.type li a.active {
 	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	
 }
 #pic-block .photo .portfolio-link .fa {
 	position: relative;
@@ -2843,6 +2896,7 @@ ol.type li a.active {
 	left: 10px;
 	font-size: 14px;
 	color: #fff;
+	
 }
 .hover-bg .hover-text {
 	position: absolute;
@@ -4134,7 +4188,7 @@ blockquote p {
 
 
 .footer-bottom {
-	background: #000000;
+	background: #F5F5F5;
 	padding: 56px 0;
 }
 .footer-copyright {
@@ -4417,6 +4471,7 @@ aside {
 	text-align: center;
 	display: block;
 }
+
 #comments .comments-title {
 	text-align: center;
 }
