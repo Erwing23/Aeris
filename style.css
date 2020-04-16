@@ -388,7 +388,7 @@ p a:hover {
     line-height: 20px;
     text-align: center;
     text-transform: uppercase;
-	color: #0011ff;
+	color: #000000;
 	
 	
 }
@@ -2931,7 +2931,7 @@ to {
 ==============================*/
 #portfolio-type-a {
 	padding: 80px 0;
-	background-image: url('img/pattern.png');
+	background-color: #f5f5f5;
 }
 #portfolio-type-b {
 	padding: 80px 0;
@@ -4403,14 +4403,13 @@ blockquote p {
 			#footer .inner .copyright li a {
 				color: inherit;
 			}
-
+			#footer {background: linear-gradient(180deg, #0455BF 33.33%, rgba(10, 140, 191, 0.77) 89.06%);
+			}
 @media screen and (max-width: 1280px) {
 
-	#footer {
-		background-color: #2e3141;
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-		background-size: auto,
-cover;
+	
+		
+		background-size: auto,cover;
 		background-position: center,
 center;
 		margin-top: -6.5em;
@@ -4565,7 +4564,7 @@ line-height: 20px;
 }
 #home-banner h1{
 	
-	margin-top: 5vh;
+	margin-top: 10vh;
 	margin-bottom: 10vh;
 	font-family: Mukta;
 	font-style: normal;
