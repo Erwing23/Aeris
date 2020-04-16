@@ -425,8 +425,9 @@ text-transform: uppercase;
 	z-index: 1;
 	padding-top: 0px;
 	padding-bottom: 0px;
-	background: linear-gradient(180deg, rgba(3, 102, 218, 0.85) 24.92%, rgba(3, 102, 218, 0.77) 66.71%, #4FD5FF 100%);
-border-radius: 0px;
+	background-image: url(img/Mesa\ de\ trabajo\ 1\ copia-100.jpg);
+	border-radius: 0px;
+	background-size: 100% 100%;
 }
 .header-col-1 a {
 	display: inline-block;
