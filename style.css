@@ -60,6 +60,20 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	src: url(fonts/Muli.ttf);
 	font-family: Muli;
 }
+@font-face{
+	src: url(fonts/sweet\ purple.ttf);
+	font-family: sweet;
+}
+@font-face{
+	src: url(fonts/dealerplate\ california.ttf);
+	font-family: dearplate;
+
+}
+@font-face{
+	src: url(fonts/LoveheartsXYZ.ttf);
+	font-family: love;
+}
+
 /*
 fonts used
 
@@ -69,7 +83,23 @@ font-family: 'Lato', sans-serif;
 
 
 */
-
+.clickk{left: 90vh;
+	top: 79vh;
+	position: absolute;
+	font-family: sweet;
+	font-size: 35px;
+	color: white;
+	transform: rotate(-15deg);
+}
+.clickk2{left: 86vh;
+	top: 77vh;
+	position: absolute;
+	font-family: sweet;
+	font-size: 35px;
+	color: white;
+	transform: rotate(-15deg);
+	
+}
 
 
 
@@ -89,7 +119,7 @@ html, body {
 	
 	font-family: 'Montserrat', sans-serif;
 	color: #000000;
-	background: #f5f5f5;
+	background: #D4D3CF;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Lato', sans-serif;
@@ -344,6 +374,7 @@ p a:hover {
 /*header*/
 
 .bot{
+	
 	top: 85vh;
 	text-align: center;
 	position: relative;
@@ -381,7 +412,7 @@ p a:hover {
 	margin: auto;
 	margin-top: 5vh;
     margin-bottom: 10vh;
-    font-family: Mukta;
+    font-family: muli;
     font-style: normal;
     font-weight: bold;
     font-size: 64px;
@@ -398,7 +429,7 @@ color: black;
 align-content: center;
 text-decoration: none;
 margin-top: 80px;
-padding: 10px;
+padding: 10px 35px;
 background: rgb(255, 255, 255);
 border: 2px solid #000000;
 box-sizing: border-box;
@@ -406,12 +437,13 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 7px 7px 7px 7px;
 font-family: Lato;
 font-style: normal;
-font-weight: bold;
-font-size: 20px;
+font-weight: bolder;
+font-size: 15px;
 line-height: 20px;
 /* or 111% */
 text-align: center;
 text-transform: uppercase;
+
 }
 #top-header .buttonn:hover{
 	color: rgb(0, 17, 255);
@@ -455,7 +487,7 @@ text-transform: uppercase;
   
   /* Navbar links */
   #navbar a {
-	padding: 10px;
+	padding: 6px;
 	color: #000000;
 	text-align: center;
 	text-decoration: none;
@@ -479,16 +511,15 @@ text-transform: uppercase;
   }
   #navbar a.button{
 	  color: rgb(255, 255, 255);
+	  
   }
   .button{
 	  float: right;
 	margin: 10px 10px;
-	
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-	padding: 15px;
 	border-radius: 7px 7px 7px 7px;
 	box-sizing: border-box;
-	  top: 20px;
+	  top: 1px;
 	background-color: rgb(0, 60, 255);
 	text-align: center;
 	transition-duration: 0.4s;
@@ -520,7 +551,7 @@ text-transform: uppercase;
 	  position: relative;
 	  width: 97px;
 	float: left;
-	margin-top: 6px;
+	margin-top: 0px;
 	margin-right: 400px;
 	
   }
@@ -2794,7 +2825,7 @@ embed, iframe, object {
 	height: 90vh;
 }
 #home-banner {
-	background-color:#f5f5f5;
+	background-color:#D4D3CF;
 	
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
@@ -2934,7 +2965,7 @@ to {
 ==============================*/
 #portfolio-type-a {
 	padding: 80px 0;
-	background-color: #f5f5f5;
+	background-color: #D4D3CF;
 }
 #portfolio-type-b {
 	padding: 80px 0;
@@ -3898,6 +3929,9 @@ blockquote {
 .page blockquote {
 	margin-left: 8.333%;
 }
+#footer {background-image: url(img/Mesa\ de\ trabajo\ 2.jpg) ;
+	background-size: 100% 100%;
+}
 blockquote p {
 	font-size: 18px !important;
 	color: #3c434d !important;
@@ -4406,8 +4440,7 @@ blockquote p {
 			#footer .inner .copyright li a {
 				color: inherit;
 			}
-			#footer {background: linear-gradient(180deg, #0455BF 33.33%, rgba(10, 140, 191, 0.77) 89.06%);
-			}
+			
 @media screen and (max-width: 1280px) {
 
 	
@@ -4419,7 +4452,7 @@ center;
 		padding-top: 6.5em;
 	}
 
-}
+
 
 @media screen and (max-width: 980px) {
 
@@ -4555,23 +4588,49 @@ center;
 	
 	
 }
-.expertos a{
-	font-family: Baloo Bhaina;
+.brand{
+	top:37vh;
+	left: 68.5vh;
+	position: absolute;
+	font-family: love;
 font-style: normal;
 font-weight: normal;
-font-size: 24px;
+font-size: 60px;
+line-height: 20px;
+/* or 33% */
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+transform: matrix(0.97, -0.26, 0.26, 0.97, 0, 0);
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.brand span{
+color: #DDC404;
+}
+.expertos a{
+	font-family: dearplate;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
 line-height: 20px;
 	text-decoration: none;
 	margin:80px;
 	color: black;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.expertos a:hover{
+	text-decoration: underline;
+	text-decoration-color:#006FE1; ;
+	text-decoration-
 }
 #home-banner h1{
 	
 	margin-top: 10vh;
 	margin-bottom: 10vh;
-	font-family: Mukta;
+	font-family: Muli;
 	font-style: normal;
-	font-weight: bold;
+	font-weight: 900;
 	font-size: 64px;
 	line-height: 20px;
 	/* or 31% */
