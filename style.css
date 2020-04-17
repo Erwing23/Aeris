@@ -83,16 +83,18 @@ font-family: 'Lato', sans-serif;
 
 
 */
-.clickk{left: 90vh;
-	top: 79vh;
+.clickk{
+	left: 845px;
+	top: 745px;
 	position: absolute;
 	font-family: sweet;
 	font-size: 35px;
 	color: white;
 	transform: rotate(-15deg);
 }
-.clickk2{left: 86vh;
-	top: 77vh;
+.clickk2{
+	left: 830px;
+	top: 720px;
 	position: absolute;
 	font-family: sweet;
 	font-size: 35px;
@@ -4589,8 +4591,8 @@ center;
 	
 }
 .brand{
-	top:37vh;
-	left: 68.5vh;
+	top:340px;
+	left: 642px;
 	position: absolute;
 	font-family: love;
 font-style: normal;
